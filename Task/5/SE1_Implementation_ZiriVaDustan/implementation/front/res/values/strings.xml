@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodOrderingSystem</string>
+    <string name="customer">Customer</string>
+    <string name="order_manager">Order Mnager</string>
+    <string name="chairman">Chairman</string>
+    <string name="comment">Comment</string>
+    <string name="order">Order List</string>
+    <string name="payment">Payment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">log in</string>
+
+</resources>

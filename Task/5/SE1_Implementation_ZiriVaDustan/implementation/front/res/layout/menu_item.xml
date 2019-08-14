@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorBlue">
+
+    <RelativeLayout
+        android:id="@+id/rv_menuItem_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWithe">
+
+        <ImageView
+            android:id="@+id/img_menu_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            tools:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/txt_menuItem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_menu_item_image"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            tools:text="Food name" />
+
+        <TextView
+            android:id="@+id/txt_menuItem_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_menu_item_image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/colorLightGreen"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap"
+            tools:text="1000 Tomans" />
+
+        <TextView
+            android:id="@+id/txt_menuItem_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_menuItem_name"
+            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:textColor="#444222"
+            tools:text="mavad avalie" />
+
+        <ImageView
+            android:id="@+id/img_menuItem_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_menuItem_description"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_add_box_blue_24dp" />
+
+        <ImageView
+            android:id="@+id/img_menuItem_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_menuItem_description"
+            android:layout_margin="8dp"
+            android:layout_toStartOf="@id/img_menuItem_add"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_remove_from_queue_blue_24dp" />
+
+        <ImageView
+            android:id="@+id/img_menuItem_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_menuItem_description"
+            android:layout_margin="8dp"
+            android:layout_toStartOf="@id/img_menuItem_remove"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_comment_blue_24dp" />
+
+        <TextView
+            android:id="@+id/txt_menuItem_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt_menuItem_name"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_text_view"
+            android:gravity="center"
+            android:textColor="@color/colorWithe"
+            android:textSize="18sp"
+            tools:text="0" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

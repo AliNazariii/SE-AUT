@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">سیستم سفارش غذا</string>
+    <string name="customer">مشتری</string>
+    <string name="order_manager">مدیر سفارشات</string>
+    <string name="chairman">مدیر</string>
+    <string name="comment">comment</string>
+    <string name="order">Order</string>
+    <string name="payment">Payment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+
+
+</resources>
